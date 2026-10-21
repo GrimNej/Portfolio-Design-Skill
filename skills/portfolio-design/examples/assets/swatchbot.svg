@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs><radialGradient id="g" cx="78%" cy="40%" r="60%"><stop offset="0" stop-color="#9b7bff" stop-opacity=".35"/><stop offset="1" stop-color="#9b7bff" stop-opacity="0"/></radialGradient>
+<pattern id="d" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".07"/></pattern></defs>
+<rect width="1600" height="900" fill="#0b0d12"/><rect width="1600" height="900" fill="url(#d)"/><rect width="1600" height="900" fill="url(#g)"/>
+<rect x="990" y="260" width="160" height="240" rx="22" fill="#ff8ad8" transform="rotate(-8 1070 380)"/><rect x="1080" y="320" width="160" height="240" rx="22" fill="#9b7bff" transform="rotate(-4 1160 380)"/><rect x="1170" y="260" width="160" height="240" rx="22" fill="#9b7bff" transform="rotate(0 1250 380)"/><rect x="1260" y="320" width="160" height="240" rx="22" fill="#f1b94b" transform="rotate(4 1340 380)"/>
+<text x="120" y="230" fill="#9b7bff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30" letter-spacing="6">SIDE QUEST</text>
+<text x="112" y="420" fill="#f2f4f8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="150" font-weight="800" letter-spacing="-5">Swatchbot</text>
+<text x="120" y="520" fill="#b8bfcc" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="44">Palettes from any screenshot.</text>
+<rect x="120" y="640" width="250" height="70" rx="35" fill="#9b7bff"/><text x="245" y="686" text-anchor="middle" fill="#0b0d12" font-family="system-ui, sans-serif" font-size="28" font-weight="700">Try it</text>
+</svg>

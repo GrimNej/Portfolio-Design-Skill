@@ -1,0 +1,144 @@
+{
+  "site": {
+    "url": "https://example.com/",
+    "lang": "en",
+    "titleSuffix": "Product engineer, interfaces and data tools",
+    "description": "Rowan Vale is a product engineer in Lisbon who designs and builds web apps, APIs and data tools, from the first sketch to the live URL.",
+    "ogDescription": "Web apps, APIs and data tools, designed and built end to end in Lisbon.",
+    "keywords": ["Product engineer", "Frontend", "TypeScript", "React", "APIs", "Data visualisation"]
+  },
+  "person": {
+    "firstName": "Rowan",
+    "lastName": "Vale",
+    "alias": "RowanVale",
+    "title": "Product Engineer",
+    "email": "hello@example.com",
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT", "timezone": "Europe/Lisbon" },
+    "languages": ["English", "Portuguese"],
+    "languageCodes": ["en", "pt"],
+    "photos": {
+      "portrait": "assets/portrait.webp",
+      "portraitAlt": "Placeholder bust standing in for Rowan's portrait",
+      "about": "assets/about.webp",
+      "aboutAlt": "A laptop glowing on a dark desk"
+    }
+  },
+  "socials": [
+    { "network": "github", "url": "https://github.com/octocat", "handle": "@octocat" },
+    { "network": "website", "url": "https://example.com/", "handle": "example.com" }
+  ],
+  "hero": {
+    "intro": "I design and build the whole thing: the screens people touch, the APIs behind them and the dashboards that show whether any of it worked.",
+    "heroLinks": ["github", "website"]
+  },
+  "about": {
+    "statement": "I'm Rowan. I like the part of a project where a messy idea turns into something you can click.",
+    "paragraphs": [
+      "Most of my work sits between design and engineering. I sketch the flow, build the interface, wire up the API and then watch the numbers to see what people actually do with it.",
+      "I keep stacks boring on purpose. TypeScript, Postgres and a good component library get most products to launch, and I save the clever bits for where they pay off."
+    ],
+    "sign": "Speaks English and Portuguese.",
+    "caption": "Lisbon, Portugal"
+  },
+  "build": {
+    "aside": "The four kinds of work I take on most, start to finish.",
+    "rows": [
+      { "title": "Interfaces", "description": "Design systems, product screens and the small interactions that make an app feel finished.", "viz": "design" },
+      { "title": "APIs", "description": "Typed, documented endpoints with auth, tests and logs, so the frontend never has to guess.", "viz": "code" },
+      { "title": "Dashboards", "description": "Charts and reports that answer one question each, built on data you can trust.", "viz": "data" },
+      { "title": "Launches", "description": "From a sketch to a live URL with analytics on day one, then small releases every week.", "viz": "launch" }
+    ]
+  },
+  "work": {
+    "aside": "Three example projects. Swap these for real ones: the build reads the same fields for any project.",
+    "projects": [
+      {
+        "name": "Driftmail", "accent": "#6fe3ff", "address": "driftmail.example.com",
+        "tagline": "A shared inbox that sorts itself.",
+        "description": "Support teams forward everything to one address. Driftmail reads each thread, tags it, routes it to the right person and drafts a reply they can send or edit.",
+        "stack": ["TypeScript", "Next.js", "PostgreSQL", "Redis"], "note": "Example project", "language": "TypeScript",
+        "media": [ { "src": "assets/driftmail.svg", "alt": "Driftmail banner: a shared inbox that sorts itself.", "label": "Banner" } ],
+        "links": [ { "label": "Live demo", "href": "https://example.com/driftmail" }, { "label": "Source", "href": "https://github.com/octocat/Hello-World" } ]
+      },
+      {
+        "name": "Coinpath", "accent": "#f1b94b", "address": "coinpath.example.com",
+        "tagline": "Budgets that explain themselves.",
+        "description": "Connect a bank export and Coinpath groups the spending, flags what changed this month and writes a two-line summary you can read on the bus.",
+        "stack": ["React", "D3", "FastAPI", "DuckDB"], "language": "Python",
+        "media": [ { "src": "assets/coinpath.svg", "alt": "Coinpath banner: budgets that explain themselves." } ],
+        "links": [ { "label": "Live demo", "href": "https://example.com/coinpath" } ]
+      },
+      {
+        "name": "Murmur", "accent": "#ff8ad8", "address": "Mobile app · beta",
+        "tagline": "Voice memos in, tidy notes out.",
+        "description": "Record a meeting on your phone. Murmur transcribes it on the device, pulls out decisions and to-dos and files them where your team already works.",
+        "stack": ["Swift", "Kotlin", "Whisper", "Supabase"], "note": "Example project", "language": "Swift", "cursor": "View project",
+        "media": [ { "src": "assets/murmur.svg", "alt": "Murmur banner: voice memos in, tidy notes out." } ],
+        "links": [ { "label": "Join the beta", "href": "https://example.com/murmur" } ]
+      }
+    ],
+    "sideQuests": [
+      { "name": "Swatchbot", "description": "Drop in any screenshot and get a named, accessible colour palette back.", "meta": "TypeScript / Figma plugin", "href": "https://example.com/swatchbot", "image": "assets/swatchbot.svg", "alt": "Swatchbot banner with four tilted colour swatches." },
+      { "name": "Shelf", "description": "A reading log that lives in your terminal and syncs to a plain text file.", "meta": "Rust / CLI", "href": "https://example.com/shelf", "image": "assets/shelf.svg", "alt": "Shelf banner with a row of books on a shelf." }
+    ],
+    "archive": {
+      "githubUser": "octocat",
+      "note": "Every public repository, synced live from GitHub. (The example points at GitHub's demo account.)"
+    }
+  },
+  "bands": {
+    "outline": ["Interfaces", "APIs", "Dashboards", "Design systems", "Launches"],
+    "accent": ["Shipped weekly", "Boring stack, sharp product", "Design meets code", "Pixel tidy"]
+  },
+  "stack": {
+    "heading": "Daily drivers.",
+    "aside": "Every tool in my rotation, in one pit. Grab one and throw it.",
+    "groups": [
+      { "title": "Languages", "items": ["TypeScript", "JavaScript", "Python", "Swift", "SQL"] },
+      { "title": "Frontend", "items": ["React", "Next.js", "Svelte", "Tailwind CSS", "D3", "Three.js"] },
+      { "title": "Backend and data", "items": ["Node.js", "FastAPI", "PostgreSQL", "Redis", "DuckDB", "Supabase"] },
+      { "title": "Design and ship", "items": ["Figma", "Storybook", "Vercel", "Docker", "GitHub Actions"] }
+    ],
+    "pit": [
+      { "name": "TypeScript", "icon": "typescript", "color": "#4a8fe0", "tier": 1 },
+      { "name": "React", "icon": "react", "color": "#61dafb", "tier": 1 },
+      { "name": "Next.js", "icon": "nextdotjs", "color": "#e9ecf5", "tier": 1 },
+      { "name": "Figma", "icon": "figma", "color": "#f24e1e", "tier": 1 },
+      { "name": "PostgreSQL", "icon": "postgresql", "color": "#6b8ef0", "tier": 1 },
+      { "name": "Python", "icon": "python", "color": "#5b9bd5", "tier": 1 },
+      { "name": "Svelte", "icon": "svelte", "color": "#ff3e00" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss", "color": "#38bdf8" },
+      { "name": "D3", "icon": "d3", "color": "#f9a03c" },
+      { "name": "Three.js", "icon": "threedotjs", "color": "#e9ecf5" },
+      { "name": "FastAPI", "icon": "fastapi", "color": "#1fb5a3" },
+      { "name": "Supabase", "icon": "supabase", "color": "#3fcf8e" },
+      { "name": "Redis", "icon": "redis", "color": "#ff5a4a" },
+      { "name": "DuckDB", "icon": "duckdb", "color": "#fff000" },
+      { "name": "Docker", "icon": "docker", "color": "#3aa0f0" },
+      { "name": "Vercel", "icon": "vercel", "color": "#e9ecf5" },
+      { "name": "Swift", "icon": "swift", "color": "#f05138" },
+      { "name": "Storybook", "tier": 3 },
+      { "name": "SQL", "tier": 3 },
+      { "name": "A11y", "tier": 3 }
+    ]
+  },
+  "process": {
+    "heading": "Sketch in. Product out.",
+    "steps": [
+      { "title": "Find the one job", "text": "We agree on the single thing the first version has to do well, and what it can skip." },
+      { "title": "Clickable in a week", "text": "You get a working build on a real URL early, so feedback is about the product, not a mockup." },
+      { "title": "Ship small, often", "text": "Weekly releases with the numbers next to them, so every change earns its place." }
+    ]
+  },
+  "contact": {
+    "lede": "Got a product idea, a rough prototype or a launch date coming up? Send it over. I reply within a day."
+  },
+  "theme": { "preset": "violet" },
+  "mascot": {
+    "name": "Byte",
+    "whoLine": "rowan designs and builds web apps. screens, APIs, dashboards, the lot.",
+    "buildLine": "this is what rowan builds. tap me for the short version.",
+    "stackLine": "TypeScript, React, Postgres, and Figma open in another window.",
+    "favoriteReason": "it sorts a whole support inbox before anyone has had coffee."
+  }
+}

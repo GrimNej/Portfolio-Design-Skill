@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs><radialGradient id="g" cx="78%" cy="40%" r="60%"><stop offset="0" stop-color="#f1b94b" stop-opacity=".35"/><stop offset="1" stop-color="#f1b94b" stop-opacity="0"/></radialGradient>
+<pattern id="d" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".07"/></pattern></defs>
+<rect width="1600" height="900" fill="#0b0d12"/><rect width="1600" height="900" fill="url(#d)"/><rect width="1600" height="900" fill="url(#g)"/>
+<g fill="#f1b94b"><rect x="990" y="440" width="44" height="120" rx="8" opacity="0.35"/><rect x="1060" y="360" width="44" height="200" rx="8" opacity="0.45"/><rect x="1130" y="400" width="44" height="160" rx="8" opacity="0.55"/><rect x="1200" y="300" width="44" height="260" rx="8" opacity="0.65"/><rect x="1270" y="250" width="44" height="310" rx="8" opacity="0.75"/><rect x="1340" y="180" width="44" height="380" rx="8" opacity="0.85"/></g><path d="M980 470 C1100 420 1180 360 1280 300 S1400 200 1440 180" fill="none" stroke="#fff" stroke-width="5" opacity=".7"/>
+<text x="120" y="230" fill="#f1b94b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30" letter-spacing="6">EXAMPLE PROJECT 02</text>
+<text x="112" y="420" fill="#f2f4f8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="150" font-weight="800" letter-spacing="-5">Coinpath</text>
+<text x="120" y="520" fill="#b8bfcc" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="44">Budgets that explain themselves.</text>
+<rect x="120" y="640" width="250" height="70" rx="35" fill="#f1b94b"/><text x="245" y="686" text-anchor="middle" fill="#0b0d12" font-family="system-ui, sans-serif" font-size="28" font-weight="700">Try it</text>
+</svg>

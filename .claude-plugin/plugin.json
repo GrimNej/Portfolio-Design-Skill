@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-design",
+  "version": "1.0.0",
+  "description": "Interviews you and builds an award-style personal portfolio site: WebGL particle galaxy, cut-out portrait with an ASCII lens, kinetic name, chat mascot, physics ball pit and a live GitHub archive. Previews, browser-tests and deploys it.",
+  "author": { "name": "Ginej Neupane", "url": "https://grimnej.com" },
+  "homepage": "https://github.com/GrimNej/Portfolio-Design-Skill",
+  "repository": "https://github.com/GrimNej/Portfolio-Design-Skill",
+  "license": "MIT",
+  "keywords": ["portfolio", "personal-website", "webgl", "gsap", "github-pages", "skill"]
+}

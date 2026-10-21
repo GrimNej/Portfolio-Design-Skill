@@ -1,0 +1,14 @@
+{
+  "name": "grimnej",
+  "owner": { "name": "Ginej Neupane", "url": "https://grimnej.com" },
+  "metadata": { "description": "Skills by GrimNej" },
+  "plugins": [
+    {
+      "name": "portfolio-design",
+      "source": "./",
+      "description": "Interviews you and builds an award-style personal portfolio site, then previews, browser-tests and deploys it.",
+      "version": "1.0.0",
+      "category": "design"
+    }
+  ]
+}
