@@ -73,16 +73,9 @@ One page, twelve scenes, zero templates-that-look-like-templates. Everything bel
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A["Interview<br/><sub>10 short rounds</sub>"] --> B["Photos<br/><sub>background removed</sub>"]
-    B --> C["portfolio.json"]
-    C --> D["build.mjs<br/><sub>static site</sub>"]
-    D --> E["Browser QA<br/><sub>11 checks, 23 screens</sub>"]
-    E -->|fix and rebuild| C
-    E --> F["Your review"]
-    F -->|your yes| G["Deploy<br/><sub>GitHub Pages / any host</sub>"]
-```
+<div align="center">
+<img src="docs/flow.jpg" alt="Interview, photos, portfolio.json, build, browser QA (fix and rebuild until every check passes), your review, then deploy on your yes" width="100%" />
+</div>
 
 1. **Interview.** Claude asks about you in ten short rounds: identity, photos, links, what you do, the four kinds of work you build, your projects, your stack, your process, a colour theme and the mascot. Choices come as buttons; anything you'd rather not write, it drafts for you in your voice and shows you first.
 2. **Your GitHub, mined.** It scans your public repos, reads the READMEs, finds banners, taglines and live links, and proposes what to feature.
@@ -160,7 +153,7 @@ Each check exists because that exact thing went wrong once while this design was
 
 ## Built with
 
-| | |
+| Layer | Tools |
 |---|---|
 | **Motion** | [GSAP](https://gsap.com) 3.15 with ScrollTrigger and SplitText, [Lenis](https://github.com/darkroomengineering/lenis) smooth scroll |
 | **Graphics** | Hand-written WebGL2 shaders for the particle galaxy, Canvas 2D for the ASCII lens and the physics pit, inline SVG for the diagrams and the mascot |
