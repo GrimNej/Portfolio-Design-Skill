@@ -60,7 +60,7 @@ One page, twelve scenes, zero templates-that-look-like-templates. Everything bel
     <td><img src="docs/screens/contact.jpg" alt="The contact section with a huge Let's talk heading inside the particle field" /></td>
   </tr>
   <tr>
-    <td><b>The rest of the pile.</b> Every public repo, synced live from GitHub with filters, search and forks on demand. Private repos can't leak: it only ever reads the public API.</td>
+    <td><b>The rest of the pile.</b> Your public repos, synced live from GitHub, with filters, search, forks on demand and a hide list for the ones not worth showing. Private repos can't leak: it only ever reads the public API.</td>
     <td><b>Let's talk.</b> The galaxy comes back for the finale. Email in big type, one-tap copy, every profile you have.</td>
   </tr>
 </table>
